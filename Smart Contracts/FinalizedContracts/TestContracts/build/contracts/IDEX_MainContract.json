@@ -1,0 +1,226 @@
+{
+  "contractName": "IDEX_MainContract",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_tradeHash",
+          "type": "bytes32"
+        }
+      ],
+      "name": "completeOffer",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity ^0.4.24;\r\n\r\ncontract IDEX_MainContract {\r\n    function completeOffer (bytes32 _tradeHash) external;\r\n}",
+  "sourcePath": "E:\\LocalDEX\\Smart Contracts\\FinalizedContracts\\TestContracts\\contracts\\IDEX_MainContract.sol",
+  "ast": {
+    "absolutePath": "/E/LocalDEX/Smart Contracts/FinalizedContracts/TestContracts/contracts/IDEX_MainContract.sol",
+    "exportedSymbols": {
+      "IDEX_MainContract": [
+        3936
+      ]
+    },
+    "id": 3937,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 3930,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:7"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 3936,
+        "linearizedBaseContracts": [
+          3936
+        ],
+        "name": "IDEX_MainContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 3935,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "completeOffer",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 3933,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3932,
+                  "name": "_tradeHash",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3935,
+                  "src": "86:18:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 3931,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "86:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "85:20:7"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 3934,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "114:0:7"
+            },
+            "scope": 3936,
+            "src": "62:53:7",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 3937,
+        "src": "28:90:7"
+      }
+    ],
+    "src": "0:118:7"
+  },
+  "legacyAST": {
+    "absolutePath": "/E/LocalDEX/Smart Contracts/FinalizedContracts/TestContracts/contracts/IDEX_MainContract.sol",
+    "exportedSymbols": {
+      "IDEX_MainContract": [
+        3936
+      ]
+    },
+    "id": 3937,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 3930,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:7"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 3936,
+        "linearizedBaseContracts": [
+          3936
+        ],
+        "name": "IDEX_MainContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 3935,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "completeOffer",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 3933,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3932,
+                  "name": "_tradeHash",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3935,
+                  "src": "86:18:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 3931,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "86:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "85:20:7"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 3934,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "114:0:7"
+            },
+            "scope": 3936,
+            "src": "62:53:7",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 3937,
+        "src": "28:90:7"
+      }
+    ],
+    "src": "0:118:7"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-06-05T20:01:05.186Z"
+}
